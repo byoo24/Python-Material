@@ -15,20 +15,20 @@ class Account:
         self.__balance = balance
         self._transaction_list = [(Account._current_time(), balance)]
         print("Account created for " + self._name)
-        self.show_balance()
+        self.show_balance
 
     def deposit(self, amount):
         if amount > 0:
             self.__balance += amount
             self.show_balance()
             self._transaction_list.append((Account._current_time(), amount))
-
+    
     def withdraw(self, amount):
         if 0 < amount <= self.__balance:
             self.__balance -= amount
-            self._transaction_list.append((Account._current_time(), -amount))
+            self._transaction_list.append((Account._current_time(), amount))
         else:
-            print("The amount must be greater than zero and no more then your account balance")
+            print("The amount must be greater than zero and no more than your account balance")
         self.show_balance()
 
     def show_balance(self):
@@ -44,18 +44,16 @@ class Account:
             print("{:6} {} on {} (local time was {})".format(amount, tran_type, date, date.astimezone()))
 
 
+
 if __name__ == '__main__':
-    tim = Account("Tim", 0)
-    tim.show_balance()
-
-    tim.deposit(1000)
-    # tim.show_balance()
-    tim.withdraw(500)
+    # tim = Account("Tim", 0)
     # tim.show_balance()
 
-    tim.withdraw(2000)
+    # tim.deposit(1000)
+    # tim.withdraw(500)
+    # tim.withdraw(2000)
 
-    tim.show_transactions()
+    # tim.show_transactions()
 
     steph = Account("Steph", 800)
     steph.__balance = 200
@@ -64,5 +62,3 @@ if __name__ == '__main__':
     steph.show_transactions()
     steph.show_balance()
     print(steph.__dict__)
-    steph._Account__balance = 40
-    steph.show_balance()
