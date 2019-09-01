@@ -7,7 +7,7 @@ class Song:
 		duration (int): The duration of the song in seconds. May be zero
 	"""
 
-	def __init__(self, title, artist, duration=0):
+	def __init__(self, title, artist, duration: int = 0):
 
 		self.title = title
 		self.artist = artist

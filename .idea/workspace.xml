@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c91534b8-f9bf-48c9-b097-337c053dfd44" name="Default Changelist" comment="" />
+    <list default="true" id="c91534b8-f9bf-48c9-b097-337c053dfd44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/get_ints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBrowser/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBrowser/star_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/checkdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/rollback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RollingBack/rollback2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/ducks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/ducks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/contacts.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/contacts.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/contacts2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/contacts2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/contacts3.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/contacts3.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +33,10 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,32 +45,25 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-256" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1874" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python Material" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -107,15 +123,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="877" extended-state="0" />
+    <frame x="-279" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25663716" />
+      <window_info id="DB Browser" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09531417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
@@ -137,16 +155,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts.py" />
   </component>
   <component name="masterDetails">
     <states>
